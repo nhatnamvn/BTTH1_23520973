@@ -10,7 +10,6 @@ public class Bai01 {
             double one = r / r;                    
             double ten = one + one + one + one + one + one + one + one + one + one;
             double N = ten * ten * ten * ten * ten * ten; 
-
             double duongKinh = r + r;         
             double rBinhPhuong = r * r;       
             double n = zero;
@@ -18,7 +17,6 @@ public class Bai01 {
             for (double i = zero; i < N; i += one) {
                 double x = (random.nextDouble() * duongKinh) - r;
                 double y = (random.nextDouble() * duongKinh) - r;
-
                 if ((x * x) + (y * y) <= rBinhPhuong) {
                     n += one; 
                 }
